@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0e7490,100:38bdf8&height=200&section=header&text=0xSY&fontSize=70&fontColor=e0f2fe&animation=fadeIn&fontAlignY=34&desc=Mobile%20%26%20Web%20Security&descAlignY=56&descAlign=50&descSize=20" width="100%" alt="0xSY — Mobile &amp; Web Security" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0e7490,100:38bdf8&height=200&section=header&text=0xSY&fontSize=70&fontColor=e0f2fe&animation=fadeIn&fontAlignY=34&desc=Web%20Security%20%C2%B7%20Bug%20Hunting&descAlignY=56&descAlign=50&descSize=20" width="100%" alt="0xSY — Web Security · Bug Hunting" />
 
-移动安全 · Web 安全 · 漏洞研究
+Web 安全 · 漏洞研究 · 工具与自动化
 
 [![博客：0xSY](assets/badges/blog.svg)](https://0xsy-sec.github.io/)
 [![公众号：0xSY](assets/badges/wechat.svg)](assets/wechat-qr.jpg)
@@ -22,7 +22,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg" />
-  <img alt="写移动端和 Web 的安全研究，也把资产发现、攻击面管理和 AI Agent 做成工具" src="assets/about-light.svg" width="100%" />
+  <img alt="写 Web 安全与漏洞研究，也把资产发现、攻击面管理和 AI Agent 做成工具" src="assets/about-light.svg" width="100%" />
 </picture>
 
 </div>
@@ -36,8 +36,6 @@
 <br/>
 
 <img src="assets/badges/burp.svg" height="32" alt="Burp Suite" />
-<img src="assets/badges/frida.svg" height="32" alt="Frida" />
-<img src="assets/badges/jadx.svg" height="32" alt="jadx" />
 <img src="assets/badges/ida.svg" height="32" alt="IDA" />
 <img src="assets/badges/nmap.svg" height="32" alt="nmap" />
 
