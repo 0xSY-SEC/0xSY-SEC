@@ -21,6 +21,5 @@ jobs:
         with:
           feed_list: "https://0xsy-sec.github.io/posts/index.xml"
           max_post_count: 5
-          template: "$newline- [$title]($url) · $date$newline"
-          date_format: "yyyy-mm-dd"
+          template: "$newline- [$title]($url)$newline"
           commit_message: "docs: update latest blog posts"
