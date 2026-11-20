@@ -2,30 +2,30 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0e7490,100:38bdf8&height=200&section=header&text=0xSY&fontSize=70&fontColor=e0f2fe&animation=fadeIn&fontAlignY=34&desc=Mobile%20%26%20Web%20Security&descAlignY=56&descAlign=50&descSize=20" width="100%" alt="0xSY — Mobile &amp; Web Security" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&height=50&lines=Hi%2C+I'm+0xSY;Mobile+%26+Web+Security;Bug+Hunting+%C2%B7+Tooling+%C2%B7+Automation" alt="Hi, I'm 0xSY" />
-
 移动安全 · Web 安全 · 漏洞研究
 
 [![博客：0xSY](assets/badges/blog.svg)](https://0xsy-sec.github.io/)
 [![公众号：0xSY](assets/badges/wechat.svg)](assets/wechat-qr.jpg)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg" />
+  <img alt="终端：whoami、关注方向、博客目录" src="assets/terminal-light.svg" width="100%" />
+</picture>
+
 </div>
 
 ## 关于我
 
-```text
-whoami          0xSY
-公众号          「0xSY」
-GitHub          0xSY-SEC
+<div align="center">
 
-移动安全        Android / 鸿蒙 HarmonyOS
-Web 安全        漏洞研究
-工具与自动化    资产发现 · 攻击面管理平台 · AI agents
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg" />
+  <img alt="写移动端和 Web 的安全研究，也把资产发现、攻击面管理和 AI Agent 做成工具" src="assets/about-light.svg" width="100%" />
+</picture>
 
-博客            https://0xsy-sec.github.io/
-```
-
-写移动端和 Web 的安全研究，也把资产发现、攻击面管理和 AI agents 做成工具。
+</div>
 
 ## 技术栈
 
@@ -67,9 +67,27 @@ Web 安全        漏洞研究
 
 </div>
 
+## 成就
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-nu.vercel.app/?username=0xSY-SEC&theme=nord&no-frame=true&no-bg=true&row=1&column=8&margin-w=6" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-nu.vercel.app/?username=0xSY-SEC&theme=flat&no-frame=true&no-bg=true&row=1&column=8&margin-w=6" />
+  <img alt="成就" src="https://github-profile-trophy-nu.vercel.app/?username=0xSY-SEC&theme=flat&no-frame=true&no-bg=true&row=1&column=8&margin-w=6" width="100%" />
+</picture>
+
+</div>
+
 ## 贡献
 
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xSY-SEC/0xSY-SEC/output/profile-3d-contrib/profile-cyan-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xSY-SEC/0xSY-SEC/output/profile-3d-contrib/profile-cyan-light.svg" />
+  <img alt="三维贡献图" src="https://raw.githubusercontent.com/0xSY-SEC/0xSY-SEC/output/profile-3d-contrib/profile-cyan-light.svg" width="100%" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xSY-SEC/0xSY-SEC/output/github-contribution-grid-snake-dark.svg" />
@@ -84,7 +102,7 @@ Web 安全        漏洞研究
 来自 [博客](https://0xsy-sec.github.io/)（Hugo Blowfish）。
 
 <!-- BLOG-POST-LIST:START -->
-- [站点已就绪](https://0xsy-sec.github.io/posts/welcome/)
+- [站点已就绪](https://0xsy-sec.github.io/posts/notes/welcome/)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
@@ -97,7 +115,7 @@ Web 安全        漏洞研究
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=0xSY-SEC&label=visitors&color=0369a1&style=plastic" alt="访问" />
+<img src="https://komarev.com/ghpvc/?username=0xSY-SEC&label=%E8%AE%BF%E9%97%AE&color=0e7490&style=flat" alt="访问" />
 
 </div>
 

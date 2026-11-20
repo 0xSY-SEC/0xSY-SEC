@@ -19,7 +19,7 @@ jobs:
       - name: Pull latest posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://0xsy-sec.github.io/posts/index.xml"
+          feed_list: "https://0xsy-sec.github.io/posts/index.xml,https://0xsy-sec.github.io/posts/notes/index.xml"
           max_post_count: 5
           template: "$newline- [$title]($url)$newline"
           commit_message: "docs: update latest blog posts"

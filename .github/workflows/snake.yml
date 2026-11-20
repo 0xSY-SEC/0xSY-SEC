@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v5
+
       - name: Generate contribution snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,11 +27,28 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#38bdf8
 
       - name: Publish SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v5
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "chore: update contribution snake"
-          jekyll: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          cp dist/github-contribution-grid-snake.svg /tmp/snake-light.svg
+          cp dist/github-contribution-grid-snake-dark.svg /tmp/snake-dark.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin output
+          for attempt in 1 2 3 4 5; do
+            git checkout -B output origin/output
+            cp /tmp/snake-light.svg github-contribution-grid-snake.svg
+            cp /tmp/snake-dark.svg github-contribution-grid-snake-dark.svg
+            git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+            if git diff --cached --quiet; then
+              echo "snake unchanged"
+              exit 0
+            fi
+            git commit -m "chore: update contribution snake"
+            if git push origin output; then
+              exit 0
+            fi
+            echo "push raced, retry ${attempt}"
+            sleep $((attempt * 3))
+            git fetch origin output
+          done
+          exit 1
