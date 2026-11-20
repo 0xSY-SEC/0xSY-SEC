@@ -6,9 +6,8 @@
 
 移动安全 · Web 安全 · 漏洞研究
 
-[![Blog](https://img.shields.io/badge/Blog-0xSY-0ea5e9?style=for-the-badge&logo=hugo&logoColor=white)](https://0xsy-sec.github.io/)
-[![X](https://img.shields.io/badge/X-%40CyberForceX-0ea5e9?style=for-the-badge&logo=x&logoColor=white)](https://x.com/CyberForceX)
-![公众号 0xSY](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-0xSY-07C160?style=for-the-badge&logo=wechat&logoColor=white)
+[![博客：0xSY](assets/badges/blog.svg)](https://0xsy-sec.github.io/)
+[![公众号：0xSY](assets/badges/wechat.svg)](assets/wechat-qr.jpg)
 
 </div>
 
@@ -23,8 +22,7 @@ GitHub          0xSY-SEC
 Web 安全        漏洞研究
 工具与自动化    资产发现 · 攻击面管理平台 · AI agents
 
-Blog            https://0xsy-sec.github.io/
-X               https://x.com/CyberForceX
+博客            https://0xsy-sec.github.io/
 ```
 
 写移动端和 Web 的安全研究，也把资产发现、攻击面管理和 AI agents 做成工具。
@@ -33,38 +31,38 @@ X               https://x.com/CyberForceX
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,go,react,ts,linux,docker,postgres,redis&perline=9" alt="Python, FastAPI, Go, React, TypeScript, Linux, Docker, PostgreSQL, Redis" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,go,react,ts,linux,docker,postgres,redis&perline=9" alt="技术栈：Python、FastAPI、Go、React、TypeScript、Linux、Docker、PostgreSQL、Redis" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-<img src="https://img.shields.io/badge/Frida-6366F1?style=for-the-badge" alt="Frida" />
-<img src="https://img.shields.io/badge/jadx-4B8BBE?style=for-the-badge" alt="jadx" />
-<img src="https://img.shields.io/badge/IDA-B91C1C?style=for-the-badge" alt="IDA" />
-<img src="https://img.shields.io/badge/nmap-1D4E89?style=for-the-badge" alt="nmap" />
+<img src="assets/badges/burp.svg" height="32" alt="Burp Suite" />
+<img src="assets/badges/frida.svg" height="32" alt="Frida" />
+<img src="assets/badges/jadx.svg" height="32" alt="jadx" />
+<img src="assets/badges/ida.svg" height="32" alt="IDA" />
+<img src="assets/badges/nmap.svg" height="32" alt="nmap" />
 
 </div>
 
-## GitHub
+## GitHub 统计
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=0xSY-SEC&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=38bdf8&icon_color=22d3ee&text_color=c9d1d9" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=0xSY-SEC&show_icons=true&hide_border=true&theme=default&bg_color=ffffff&title_color=0e7490&icon_color=0369a1&text_color=24292f" />
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=0xSY-SEC&show_icons=true&hide_border=true&theme=default&bg_color=ffffff&title_color=0e7490&icon_color=0369a1&text_color=24292f" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=0xSY-SEC&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=38bdf8&icon_color=22d3ee&text_color=c9d1d9&locale=cn" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=0xSY-SEC&show_icons=true&hide_border=true&theme=default&bg_color=ffffff&title_color=0e7490&icon_color=0369a1&text_color=24292f&locale=cn" />
+  <img alt="GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=0xSY-SEC&show_icons=true&hide_border=true&theme=default&bg_color=ffffff&title_color=0e7490&icon_color=0369a1&text_color=24292f&locale=cn" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=0xSY-SEC&hide_border=true&theme=tokyonight&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=0xSY-SEC&hide_border=true&theme=default&background=FFFFFF&ring=0E7490&fire=0369A1&currStreakLabel=0E7490" />
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=0xSY-SEC&hide_border=true&theme=default&background=FFFFFF&ring=0E7490&fire=0369A1&currStreakLabel=0E7490" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=0xSY-SEC&hide_border=true&theme=tokyonight&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&locale=zh_Hans" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=0xSY-SEC&hide_border=true&theme=default&background=FFFFFF&ring=0E7490&fire=0369A1&currStreakLabel=0E7490&locale=zh_Hans" />
+  <img alt="连续贡献" src="https://streak-stats.demolab.com?user=0xSY-SEC&hide_border=true&theme=default&background=FFFFFF&ring=0E7490&fire=0369A1&currStreakLabel=0E7490&locale=zh_Hans" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=0xSY-SEC&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=0xSY-SEC&layout=compact&hide_border=true&langs_count=8&theme=default&bg_color=ffffff&title_color=0e7490&text_color=24292f" />
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xSY-SEC&layout=compact&hide_border=true&langs_count=8&theme=default&bg_color=ffffff&title_color=0e7490&text_color=24292f" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=0xSY-SEC&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&locale=cn" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=0xSY-SEC&layout=compact&hide_border=true&langs_count=8&theme=default&bg_color=ffffff&title_color=0e7490&text_color=24292f&locale=cn" />
+  <img alt="常用语言" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xSY-SEC&layout=compact&hide_border=true&langs_count=8&theme=default&bg_color=ffffff&title_color=0e7490&text_color=24292f&locale=cn" />
 </picture>
 
 </div>
@@ -76,7 +74,7 @@ X               https://x.com/CyberForceX
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xSY-SEC/0xSY-SEC/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xSY-SEC/0xSY-SEC/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/0xSY-SEC/0xSY-SEC/output/github-contribution-grid-snake.svg" />
+  <img alt="贡献蛇" src="https://raw.githubusercontent.com/0xSY-SEC/0xSY-SEC/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
@@ -91,11 +89,15 @@ X               https://x.com/CyberForceX
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=0xSY-SEC&label=visitors&color=0ea5e9&style=flat-square" alt="visitors" />
+<img src="assets/wechat-qr.jpg" width="140" alt="公众号「0xSY」" />
 
 <br/>
 
-<sub>0xSY · 公众号「0xSY」</sub>
+<sub>公众号「0xSY」</sub>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=0xSY-SEC&label=visitors&color=0369a1&style=plastic" alt="访问" />
 
 </div>
 
